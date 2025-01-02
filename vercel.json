@@ -1,5 +1,7 @@
 {
-    "function": {
-        "./**": { "runtime": "vercel-deno@latest" }
-    }
+	"functions": {
+		"./**": {
+			"runtime": "vercel-deno@latest"
+		}
+	}
 }
