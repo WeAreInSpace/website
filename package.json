@@ -10,8 +10,7 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
-		"lint": "prettier --check . && eslint .",
-		"deploy:vercel": "sh deploy-vercel.sh"
+		"lint": "prettier --check . && eslint ."
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.20",
